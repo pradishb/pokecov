@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pokecov"
+version = "1.0.0"
+dependencies = []
+requires-python = ">=3"
+authors = [{ name = "Pradish Bijukchhe", email = "pradishbijukchhe@gmail.com" }]
+description = "Tool to check the effectiveness and coverage of your pokemon attacks"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = []
+classifiers = ["Programming Language :: Python :: 3"]
+
+[project.urls]
+Homepage = "https://github.com/pradishb/pokecov"
+Issues = "https://github.com/pradishb/pokecov/issues"
+
+[project.scripts]
+pokecov = "pokecov.check:main"
+pokecov-search = "pokecov.search:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-dir]
+"pokecov" = "pokecov"
+
+[tool.isort]
+line_length = 79
+force_single_line = true
+
+[tool.black]
+line-length = 79
+preview = true
+
+[tool.pyright]
+typeCheckingMode = "strict"
