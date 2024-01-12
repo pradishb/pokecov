@@ -47,16 +47,16 @@ pokecov-search --gen 3 --min-count 6 --max-count 7 --ignore dragon --must-have f
 ```
 
 ```
-Found a type cobmination with 100% coverage: Fire, Fighting, Grass, Rock, Dark, Flying, Ground
-Found a type cobmination with 100% coverage: Fire, Fighting, Grass, Rock, Flying, Ghost, Ground
-Found a type cobmination with 100% coverage: Fire, Fighting, Grass, Dark, Flying, Electric, Ground
-Found a type cobmination with 100% coverage: Fire, Fighting, Grass, Dark, Flying, Ground, Ice
-Found a type cobmination with 100% coverage: Fire, Fighting, Grass, Flying, Ghost, Electric, Ground
-Found a type cobmination with 100% coverage: Fire, Fighting, Grass, Flying, Ghost, Ground, Ice
-Found a type cobmination with 100% coverage: Fire, Fighting, Dark, Water, Flying, Electric, Ground
-Found a type cobmination with 100% coverage: Fire, Fighting, Dark, Flying, Electric, Ground, Ice
-Found a type cobmination with 100% coverage: Fire, Fighting, Water, Flying, Ghost, Electric, Ground
-Found a type cobmination with 100% coverage: Fire, Fighting, Flying, Ghost, Electric, Ground, Ice
+Water, Flying, Fighting, Dark, Electric, Ground, Fire
+Water, Flying, Fighting, Electric, Ground, Ghost, Fire
+Flying, Fighting, Ice, Dark, Electric, Ground, Fire
+Flying, Fighting, Ice, Dark, Grass, Ground, Fire
+Flying, Fighting, Ice, Electric, Ground, Ghost, Fire
+Flying, Fighting, Ice, Grass, Ground, Ghost, Fire
+Flying, Fighting, Dark, Electric, Grass, Ground, Fire
+Flying, Fighting, Dark, Grass, Rock, Ground, Fire
+Flying, Fighting, Electric, Grass, Ground, Ghost, Fire
+Flying, Fighting, Grass, Rock, Ground, Ghost, Fire
 ```
 
 ## License
